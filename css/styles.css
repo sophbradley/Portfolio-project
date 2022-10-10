@@ -1,0 +1,15 @@
+/*
+font-family: 'Old Standard TT', serif;
+font-family: 'Tajawal', sans-serif; */
+
+h1 {
+  color: red;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 36px;
+}
