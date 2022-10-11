@@ -1,15 +1,32 @@
-/*
-font-family: 'Old Standard TT', serif;
-font-family: 'Tajawal', sans-serif; */
+:root {
+  --main-color: rgba(66, 209, 202, 0.5);
+  --font-color: #6d706f;
+  --heading-font: "Old Standard TT", serif;
+  --default-font: "Tajawal", sans-serif;
+}
+
+body {
+  color: var(--font-color);
+}
 
 h1 {
-  color: red;
-  font-family: "Old Standard TT", serif;
-  font-weight: 500;
+  font-family: var(--heading-font);
+  font-weight: 700;
   font-size: 64px;
 }
 
-p {
-  font-family: "Tajawal", sans-serif;
+h2 {
+  font-family: var(--default-font);
+  font-weight: 400;
   font-size: 36px;
+}
+
+.hero {
+  max-width: 700px;
+  display: block;
+  margin: 60px auto;
+  padding: 80px 20px;
+  text-align: center;
+  background-color: var(--main-color);
+  border-radius: 30px;
 }
