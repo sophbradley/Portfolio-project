@@ -1,6 +1,19 @@
+/*.first-color { 
+	background: #414a50; FONT COLOUR
+}
+.second-color { 
+	background: #85a6b1; 
+}
+.third-color { 
+	background: #8bd7d1; 
+}
+.fourth-color { 
+	background: #caedde; MAIN COLOUR
+}*/
+
 :root {
-  --main-color: rgba(66, 209, 202, 0.5);
-  --font-color: #6d706f;
+  --main-color: #caedde;
+  --font-color: #414a50;
   --heading-font: "Old Standard TT", serif;
   --default-font: "Tajawal", sans-serif;
 }
@@ -22,11 +35,31 @@ h2 {
 }
 
 .hero {
-  max-width: 700px;
-  display: block;
-  margin: 60px auto;
-  padding: 80px 20px;
+  padding: 30px;
   text-align: center;
   background-color: var(--main-color);
-  border-radius: 30px;
+}
+
+.project-info {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.project-image {
+  display: block;
+  text-align: center;
+  border: 20px solid var(--main-color);
+  border-radius: 8px;
+}
+
+.btn-branding {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--font-color);
+  box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-branding:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
 }
