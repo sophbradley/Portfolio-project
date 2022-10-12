@@ -35,9 +35,14 @@ h2 {
 }
 
 .hero {
-  padding: 30px;
+  padding: 60px 0px;
   text-align: center;
   background-color: var(--main-color);
+}
+
+.intro-p {
+  text-align: center;
+  font-size: 18px;
 }
 
 .project-info {
@@ -62,4 +67,25 @@ h2 {
 .btn-branding:hover {
   border: 2px solid var(--main-color);
   color: var(--main-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .project-info {
+    text-align: center;
+  }
+  .btn-branding {
+    margin-bottom: 30px;
+  }
+
+  .intro-p {
+    margin: 0px 20px;
+  }
 }
