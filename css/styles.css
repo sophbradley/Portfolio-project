@@ -1,5 +1,5 @@
 /*.first-color { 
-	background: #cabfab; 
+	background: #cabfab; SECONDARY-FONT
 }
 	
 .second-color { 
@@ -18,6 +18,7 @@
 :root {
   --main-color: #dfd8c8;
   --font-color: #41444b;
+  --secondary-font-color: #cabfab;
   --heading-font: "Old Standard TT", serif;
   --default-font: "Tajawal", sans-serif;
 }
@@ -66,7 +67,7 @@ h2 {
   background-color: var(--main-color);
 }
 
-.intro-p {
+.intro-paragraph {
   text-align: center;
   font-size: 18px;
 }
@@ -76,11 +77,12 @@ h2 {
   line-height: 1.5;
 }
 
-.project-image {
+.portfolio-image {
   display: block;
   text-align: center;
   border: 20px solid var(--main-color);
   border-radius: 8px;
+  margin-bottom: 50px;
 }
 
 .btn-branding {
@@ -95,29 +97,34 @@ h2 {
   color: var(--main-color);
 }
 
-.about-heading {
+.heading-information {
   text-align: center;
   margin-top: 90px;
 }
 
-.about-heading h1 {
+.heading-information h1 {
   font-size: 52px;
 }
 
-.about-heading h2 {
+.heading-information h2 {
   font-size: 32px;
   opacity: 0.7;
 }
 
-.about-me {
+.information-paragraph {
   text-align: justify;
+  margin-bottom: 30px;
 }
 
-.about-image {
-  display: block;
-  max-width: 500px;
-  border-radius: 8px;
-  margin: 0 auto;
+.web-link {
+  color: var(--font-color);
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+}
+
+.web-link:hover {
+  color: var(--secondary-font-color);
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
@@ -141,24 +148,26 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .intro-p {
-    margin: 0px 20px;
+  .intro-paragraoph {
+    margin: 0 auto;
   }
 
-  .about-heading h1 {
-    font-size: 44px;
-  }
-
-  .about-heading h2 {
-    font-size: 28px;
-  }
-
-  .about-me {
+  .information-paragraph {
     text-align: center;
+    padding: 10px;
   }
 
-  .about-image {
-    margin: 20px auto;
+  .portfolio-image {
+    margin: 0 auto;
     max-width: 300px;
+  }
+
+  .heading-information h1 {
+    font-size: 40px;
+  }
+
+  .heading-information h2 {
+    font-size: 20px;
+    opacity: 0.7;
   }
 }
