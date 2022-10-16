@@ -1,19 +1,23 @@
 /*.first-color { 
-	background: #414a50; FONT COLOUR
+	background: #cabfab; 
 }
+	
 .second-color { 
-	background: #85a6b1; 
+	background: #dfd8c8; MAIN COLOR
 }
+
 .third-color { 
-	background: #8bd7d1; 
+	background: #41444b; FONT COLOR
 }
+
 .fourth-color { 
-	background: #caedde; MAIN COLOUR
+	background: #52575d; 
+}
 }*/
 
 :root {
-  --main-color: #caedde;
-  --font-color: #414a50;
+  --main-color: #dfd8c8;
+  --font-color: #41444b;
   --heading-font: "Old Standard TT", serif;
   --default-font: "Tajawal", sans-serif;
 }
@@ -41,20 +45,23 @@ h2 {
 
 .nav-name {
   font-family: var(--heading-font);
+  color: var(--font-color);
   font-size: 28px;
 }
 
 .nav-menu {
   font-family: var(--default-font);
+  color: var(--font-color);
   font-size: 20px;
 }
 
 .nav-menu:hover {
   font-weight: 500;
+  color: var(--font-color);
 }
 
 .hero {
-  padding: 90px 0px;
+  padding: 90px 0px 60px 0px;
   text-align: center;
   background-color: var(--main-color);
 }
@@ -88,6 +95,31 @@ h2 {
   color: var(--main-color);
 }
 
+.about-heading {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.about-heading h1 {
+  font-size: 52px;
+}
+
+.about-heading h2 {
+  font-size: 32px;
+  opacity: 0.7;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.about-image {
+  display: block;
+  max-width: 500px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -111,5 +143,22 @@ h2 {
 
   .intro-p {
     margin: 0px 20px;
+  }
+
+  .about-heading h1 {
+    font-size: 44px;
+  }
+
+  .about-heading h2 {
+    font-size: 28px;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+
+  .about-image {
+    margin: 20px auto;
+    max-width: 300px;
   }
 }
