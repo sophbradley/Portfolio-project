@@ -127,6 +127,11 @@ h2 {
   font-weight: 500;
 }
 
+.contact-icon {
+  color: var(--secondary-font-color);
+  font-weight: 700;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
