@@ -27,16 +27,51 @@ body {
   color: var(--font-color);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--heading-font);
+}
+
+h1 {
   font-weight: 700;
   font-size: 64px;
 }
 
 h2 {
-  font-family: var(--default-font);
   font-weight: 400;
   font-size: 36px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+footer {
+  margin: 0 60px;
+}
+
+footer .contact-box {
+  background-color: var(--main-color);
+  padding: 30px 120px;
+  border-radius: 8px;
+}
+
+footer .btn-branding {
+  background-color: var(--secondary-font-color);
+  border: 1px solid var(--secondary-font-color);
+  transition: all 150ms ease-in-out;
+}
+
+footer .btn-branding:hover {
+  background-color: var(--secondary-font-color);
+  color: white;
+  border: 1px solid white;
 }
 
 .navbar-branding {
