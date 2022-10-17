@@ -1,24 +1,7 @@
-/*.first-color { 
-	background: #cabfab; SECONDARY-FONT
-}
-	
-.second-color { 
-	background: #dfd8c8; MAIN COLOR
-}
-
-.third-color { 
-	background: #41444b; FONT COLOR
-}
-
-.fourth-color { 
-	background: #52575d; 
-}
-}*/
-
 :root {
   --main-color: #dfd8c8;
   --font-color: #41444b;
-  --secondary-font-color: #cabfab;
+  --secondary-color: #cabfab;
   --heading-font: "Old Standard TT", serif;
   --default-font: "Tajawal", sans-serif;
 }
@@ -63,13 +46,13 @@ footer .contact-box {
 }
 
 footer .btn-branding {
-  background-color: var(--secondary-font-color);
-  border: 1px solid var(--secondary-font-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   transition: all 150ms ease-in-out;
 }
 
 footer .btn-branding:hover {
-  background-color: var(--secondary-font-color);
+  background-color: var(--secondary-color);
   color: white;
   border: 1px solid white;
 }
@@ -158,12 +141,12 @@ footer .btn-branding:hover {
 }
 
 .web-link:hover {
-  color: var(--secondary-font-color);
+  color: var(--secondary-color);
   font-weight: 500;
 }
 
 .contact-icon {
-  color: var(--secondary-font-color);
+  color: var(--secondary-color);
   font-weight: 700;
 }
 
