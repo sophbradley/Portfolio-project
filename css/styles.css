@@ -90,11 +90,6 @@ footer .btn-branding:hover {
   font-size: 18px;
 }
 
-.project-info {
-  text-align: center;
-  line-height: 1.5;
-}
-
 .portfolio-image {
   display: block;
   text-align: center;
@@ -161,11 +156,15 @@ footer .btn-branding:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 
   .nav-name,
@@ -173,9 +172,6 @@ footer .btn-branding:hover {
     font-size: 18px;
   }
 
-  .project-info {
-    text-align: center;
-  }
   .btn-branding {
     margin-bottom: 30px;
   }
@@ -201,5 +197,9 @@ footer .btn-branding:hover {
   .heading-information h2 {
     font-size: 20px;
     opacity: 0.7;
+  }
+
+  .skillsList {
+    font-size: 16px;
   }
 }
